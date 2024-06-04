@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApplicationSaludMental")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56bfada8e4b7dcbe76548a2e7e06fc4c7cd0b986")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e92aef4042d6e45f30d971e900525f4172f2cdd2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApplicationSaludMental")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApplicationSaludMental")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{30AF4CD3-8409-4145-9AB6-BAA8661BBA3B}|WebApplicationSaludMental.csproj|c:\\users\\detpc\\source\\repos\\webapplicationsaludmental\\views\\home\\preventiva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30AF4CD3-8409-4145-9AB6-BAA8661BBA3B}|WebApplicationSaludMental.csproj|solutionrelative:views\\home\\preventiva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30AF4CD3-8409-4145-9AB6-BAA8661BBA3B}|WebApplicationSaludMental.csproj|c:\\users\\detpc\\source\\repos\\webapplicationsaludmental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{30AF4CD3-8409-4145-9AB6-BAA8661BBA3B}|WebApplicationSaludMental.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{30AF4CD3-8409-4145-9AB6-BAA8661BBA3B}|WebApplicationSaludMental.csproj|c:\\users\\detpc\\source\\repos\\webapplicationsaludmental\\views\\home\\reservacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{30AF4CD3-8409-4145-9AB6-BAA8661BBA3B}|WebApplicationSaludMental.csproj|solutionrelative:views\\home\\reservacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30AF4CD3-8409-4145-9AB6-BAA8661BBA3B}|WebApplicationSaludMental.csproj|c:\\users\\detpc\\source\\repos\\webapplicationsaludmental\\views\\home\\preventiva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30AF4CD3-8409-4145-9AB6-BAA8661BBA3B}|WebApplicationSaludMental.csproj|solutionrelative:views\\home\\preventiva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30AF4CD3-8409-4145-9AB6-BAA8661BBA3B}|WebApplicationSaludMental.csproj|c:\\users\\detpc\\source\\repos\\webapplicationsaludmental\\views\\home\\politicasprivacidad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -314,7 +314,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -330,45 +330,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-04T01:05:50.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Login.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Login.css",
-              "ToolTip": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Login.css",
-              "RelativeToolTip": "wwwroot\\css\\Login.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-04T01:04:22.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Seguridad.cshtml",
-              "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Seguridad.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Seguridad.cshtml",
-              "ToolTip": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Seguridad.cshtml",
-              "RelativeToolTip": "Views\\Home\\Seguridad.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T07:01:11.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "TerminosCondiciones.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\TerminosCondiciones.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\TerminosCondiciones.cshtml",
@@ -380,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Test.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Test.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Test.cshtml",
@@ -392,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TrastornoIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\TrastornoIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\TrastornoIndex.cshtml",
@@ -400,12 +375,11 @@
               "RelativeToolTip": "Views\\Home\\TrastornoIndex.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T00:02:22.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T00:02:22.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Acceso\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Acceso\\Login.cshtml",
@@ -413,12 +387,11 @@
               "RelativeToolTip": "Views\\Acceso\\Login.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T22:42:07.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T22:42:07.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Acceso\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Acceso\\Index.cshtml",
@@ -426,12 +399,11 @@
               "RelativeToolTip": "Views\\Acceso\\Index.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T22:42:07.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T22:42:07.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Acceso\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Acceso\\Details.cshtml",
@@ -439,12 +411,11 @@
               "RelativeToolTip": "Views\\Acceso\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T22:42:05.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T22:42:05.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Acceso\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Acceso\\Edit.cshtml",
@@ -452,12 +423,11 @@
               "RelativeToolTip": "Views\\Acceso\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T22:42:06.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T22:42:06.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Acceso\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Acceso\\Create.cshtml",
@@ -465,12 +435,11 @@
               "RelativeToolTip": "Views\\Acceso\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T22:41:32.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T22:41:32.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "test.css",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\test.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\test.css",
@@ -478,12 +447,48 @@
               "RelativeToolTip": "wwwroot\\css\\test.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-02T00:03:40.803Z",
+              "WhenOpened": "2024-06-02T00:03:40.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Preventiva.cshtml",
+              "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Preventiva.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Preventiva.cshtml",
+              "ToolTip": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Preventiva.cshtml",
+              "RelativeToolTip": "Views\\Home\\Preventiva.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T07:09:08.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
+              "Title": "Seguridad.cshtml",
+              "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Seguridad.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Seguridad.cshtml",
+              "ToolTip": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Seguridad.cshtml",
+              "RelativeToolTip": "Views\\Home\\Seguridad.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T07:01:11.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Login.css",
+              "ToolTip": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "wwwroot\\css\\Login.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-04T01:04:22.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Formulario.css",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Formulario.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Formulario.css",
@@ -491,12 +496,11 @@
               "RelativeToolTip": "wwwroot\\css\\Formulario.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAALMBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-02T07:32:40.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T07:32:40.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Estilo.css",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Estilo.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Estilo.css",
@@ -504,12 +508,11 @@
               "RelativeToolTip": "wwwroot\\css\\Estilo.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-02T07:18:07.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T07:18:07.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ResponsabilidadJovenes.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\ResponsabilidadJovenes.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ResponsabilidadJovenes.cshtml",
@@ -521,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Reservacion.cshtml",
               "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Reservacion.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Reservacion.cshtml",
@@ -530,18 +533,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-02T07:08:34.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Preventiva.cshtml",
-              "DocumentMoniker": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Preventiva.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Preventiva.cshtml",
-              "ToolTip": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\Views\\Home\\Preventiva.cshtml",
-              "RelativeToolTip": "Views\\Home\\Preventiva.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T07:09:08.241Z"
             },
             {
               "$type": "Document",
