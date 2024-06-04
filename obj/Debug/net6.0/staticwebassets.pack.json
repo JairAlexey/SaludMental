@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\css\\Formulario.css"
     },
     {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
       "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\normalize.css",
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },

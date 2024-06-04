@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BBsDz4L7JgVHhsPRDFXnq1oJ4EP0tcXtnTezU4T/Mjc=",
+  "Hash": "Iriu+oGL95liAJtc4s42P6kdCbtc0khQyvZOVLv4ucs=",
   "Source": "WebApplicationSaludMental",
   "BasePath": "_content/WebApplicationSaludMental",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Formulario.css"
+    },
+    {
+      "Identity": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Login.css",
+      "SourceId": "WebApplicationSaludMental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\",
+      "BasePath": "_content/WebApplicationSaludMental",
+      "RelativePath": "css/Login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
       "Identity": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\normalize.css",
