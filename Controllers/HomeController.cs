@@ -179,10 +179,31 @@ namespace WebApplicationSaludMental.Controllers
             return View();
         }
 
-        public IActionResult PoliticasPrivacidad()
+        public ActionResult PoliticasPrivacidad()
         {
             return View();
         }
+
+        public ActionResult ProteccionDeDatos()
+        {
+            return View();
+        }
+
+        public ActionResult ConcienciacionYFormacion()
+        {
+            return View();
+        }
+
+        public ActionResult GestionDeRiesgos()
+        {
+            return View();
+        }
+
+        public ActionResult Chatbot()
+        {
+            return View();
+        }
+
 
         public async Task<IActionResult> PaginaInicio()
         {

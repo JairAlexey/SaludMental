@@ -82,6 +82,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXBhY2l0YWNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DETPC/source/repos/WebApplicationSaludMental/Views/Home/Chatbot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGF0Ym90LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DETPC/source/repos/WebApplicationSaludMental/Views/Home/ConcienciacionYFormacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25jaWVuY2lhY2lvbllGb3JtYWNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DETPC/source/repos/WebApplicationSaludMental/Views/Home/Contactanos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0YW5vcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -112,6 +120,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/DETPC/source/repos/WebApplicationSaludMental/Views/Home/Formulario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtdWxhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DETPC/source/repos/WebApplicationSaludMental/Views/Home/GestionDeRiesgos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXN0aW9uRGVSaWVzZ29zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DETPC/source/repos/WebApplicationSaludMental/Views/Home/Jovenes.cshtml]
@@ -148,6 +160,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/DETPC/source/repos/WebApplicationSaludMental/Views/Home/Preventiva.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmV2ZW50aXZhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DETPC/source/repos/WebApplicationSaludMental/Views/Home/ProteccionDeDatos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm90ZWNjaW9uRGVEYXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DETPC/source/repos/WebApplicationSaludMental/Views/Home/Reservacion.cshtml]

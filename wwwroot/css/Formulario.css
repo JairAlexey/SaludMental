@@ -33,6 +33,7 @@ ul {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
+
     }
 
         .contact-form form label {
@@ -86,7 +87,7 @@ ul {
         }
 
         .contact-form form button {
-            width: calc(100% - 2rem);
+            width: 20rem;
             margin: 1rem;
             padding: 1rem;
             background: #1b9604;

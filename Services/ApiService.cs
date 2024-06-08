@@ -146,17 +146,6 @@ namespace WebApplicationSaludMental.Services
 
         }
 
-        public async Task<bool> DeterminarRol(Usuarios inicioSesion)
-        {
-            var usuarios = await getUsuario();
-
-            // Verificar si el usuario tiene el rol de administrador
-            var esAdministrador = usuarios.Any(u => u.Rol == "admin");
-
-            // Devolver true si el usuario es administrador, de lo contrario, devolver false
-            return esAdministrador;
-        }
-
         //Formulario
         public async Task<List<Formulario>> getFormulario()
         {

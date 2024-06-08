@@ -32,7 +32,7 @@
     <nav>
         <div class="navbar">
             <i class='bx bx-menu'></i>
-            <div class="logo"><a href="#">SaludMental</a></div>
+            <div class="logo"><a asp-controller="Home" asp-action="PaginaInicio">SaludMental</a></div>
             <div class="nav-links">
                 <div class="sidebar-logo">
                     <span class="logo-name">SaludMental</span>
@@ -67,6 +67,7 @@
                         <a asp-area="" asp-controller="" asp-action="">TE AYUDAMOS</a>
                         <i class='bx bxs-chevron-down js-arrow arrow'></i>
                         <ul class="js-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Chatbot">Chatbot</a></li>
                             <li><a asp-area="" asp-controller="Home" asp-action="Ayuda">Preguntas frecuentes</a></li>
                             <li><a asp-area="" asp-controller="Home" asp-action="Formulario">Cuéntanos lo que <br>te está sucediendo</a></li>
                         </ul>
@@ -117,7 +118,7 @@
             <a href="https://www.instagram.com/guiasaludmentalec/" class="fab fa-instagram"></a>
         </div>
         <div id="whatsapp">
-            <a href="https://wa.me/0980006242" class="fab fa-whatsapp"></a>
+            <a href="https://wa.me/+5930980006242" class="fab fa-whatsapp"></a>
         </div>
         <div id="tiktok">
             <a href="https://www.tiktok.com/@@guiasaludmental" class="fab fa-tiktok"></a>
@@ -125,7 +126,8 @@
     </div>
 
     <div class="contenedor">
-        <h3 class="centrar-texto">Tu guía de salud mental</h3>
+        <br />
+        <h3 class="centrar-texto">TU GUÍA DE SALUD MENTAL</h3>
         <main class="blog">
 
             <article class="entrada">
@@ -191,15 +193,14 @@
         }
     </script>
 
+
+
     <footer class="footer">
         <div class="container container-footer">
             <div class="menu-footer">
                 <div class="contact-info">
                     <p class="title-footer">Información de Contacto</p>
                     <ul>
-                        <li>
-                            Dirección: Dirección de la empresa
-                        </li>
                         <li>Teléfono: 0980006242</li>
                         <li>
                             Email: segutsmsd@gmail.com
@@ -245,7 +246,13 @@
 
             <div class="copyright">
                 <p>
-                    Desarrollado por Jair Rueda &copy; 2024
+                    &copy Todos los derechos reservados 2024
+                </p>
+                <br />
+                <br />
+                <br />
+                <p>
+                    Hecho por Jair Rueda
                 </p>
             </div>
         </div>

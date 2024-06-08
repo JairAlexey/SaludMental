@@ -25,33 +25,14 @@
     <link href="/css/EstiloSinBordes.css" rel="stylesheet" />
     <link href="/css/normalize.css" rel="stylesheet" />
     <link href="/css/Dropdown.css" rel="stylesheet" />
-    <style>
-        .article {
-            margin-bottom: 30px; /* Espacio entre artículos */
-        }
 
-            .article p {
-                text-align: justify; /* Justificar párrafos */
-            }
-
-            .article img {
-                display: block; /* Para que el margin auto funcione */
-                git init margin: auto; /* Centrar horizontalmente */
-            }
-
-        .centered {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
 </head>
 
 <body>
     <nav>
         <div class="navbar">
             <i class='bx bx-menu'></i>
-            <div class="logo"><a href="#">SaludMental</a></div>
+            <div class="logo"><a asp-controller="Home" asp-action="PaginaInicio">SaludMental</a></div>
             <div class="nav-links">
                 <div class="sidebar-logo">
                     <span class="logo-name">SaludMental</span>
@@ -68,7 +49,7 @@
                             <li><a asp-area="" asp-controller="Home" asp-action="Despues">Despues</a></li>
                             <li class="more">
                                 <span>
-                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test</a>
+                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test Emocional</a>
                                     <i class='bx bxs-chevron-right arrow more-arrow'></i>
                                 </span>
                                 <ul class="more-sub-menu sub-menu">
@@ -86,6 +67,7 @@
                         <a asp-area="" asp-controller="" asp-action="">TE AYUDAMOS</a>
                         <i class='bx bxs-chevron-down js-arrow arrow'></i>
                         <ul class="js-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Chatbot">Chatbot</a></li>
                             <li><a asp-area="" asp-controller="Home" asp-action="Ayuda">Preguntas frecuentes</a></li>
                             <li><a asp-area="" asp-controller="Home" asp-action="Formulario">Cuéntanos lo que <br>te está sucediendo</a></li>
                         </ul>

@@ -1,0 +1,209 @@
+﻿@{
+    ViewData["Title"] = "Test de Concienciación y Formación en Seguridad de la Información para Empleados";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/css/test.css" rel="stylesheet" />
+    <title>Test de Concienciación y Formación en Seguridad de la Información para Empleados</title>
+</head>
+<body data-cuestionario-id="SeguridadInformacion">
+
+    <header>
+        <h1>Test de Concienciación y Formación en Seguridad de la Información para Empleados</h1>
+        <p>Por favor, selecciona la opción correcta para cada una de las siguientes preguntas:</p>
+    </header>
+    <div class="back-button-container">
+        <a asp-area="" asp-controller="Home" asp-action="Otros" class="btnBack">
+            <img src="~/img/login/back.png" alt="Regresar" />
+        </a>
+    </div>
+    <div class="container">
+        <section id="p0">
+            <div class="question">
+                <h3>1. ¿Qué es el phishing?</h3>
+                <label>
+                    <input type="radio" value="0" name="p0" onclick="respuesta(0,this)"> Un método para pescar en el mar.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Una técnica de pesca submarina.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Un tipo de ataque informático que utiliza correos electrónicos engañosos para obtener información confidencial.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Un deporte acuático.
+                </label>
+            </div>
+        </section>
+        <section id="p1">
+            <div class="question">
+                <h3>2. ¿Por qué es importante utilizar contraseñas seguras?</h3>
+                <label>
+                    <input type="radio" value="0" name="p1" onclick="respuesta(1,this)"> Porque es divertido.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Porque las contraseñas fáciles de adivinar pueden ser comprometidas fácilmente.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Porque no importa qué tan seguras sean las contraseñas.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Porque así se evita recibir correos electrónicos no deseados.
+                </label>
+            </div>
+        </section>
+        <section id="p2">
+            <div class="question">
+                <h3>3. ¿Qué se debe hacer si se recibe un correo electrónico sospechoso solicitando información personal o confidencial?</h3>
+                <label>
+                    <input type="radio" value="0" name="p2" onclick="respuesta(2,this)"> Ignorarlo y eliminarlo.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Responder con la información solicitada.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Reenviarlo a otros colegas.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Reportarlo al equipo de seguridad de la empresa.
+                </label>
+            </div>
+        </section>
+        <section id="p3">
+            <div class="question">
+                <h3>4. ¿Qué es una red Wi-Fi pública y cuáles son sus riesgos?</h3>
+                <label>
+                    <input type="radio" value="0" name="p3" onclick="respuesta(3,this)"> Una red de computadoras para uso exclusivo de los empleados de una empresa.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Una red de acceso a Internet disponible para el público en general.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Una red de acceso a Internet que no tiene riesgos.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Una red que solo se puede usar con una contraseña.
+                </label>
+            </div>
+        </section>
+        <section id="p4">
+            <div class="question">
+                <h3>5. ¿Por qué es importante mantener actualizado el software de tu computadora y dispositivos móviles?</h3>
+                <label>
+                    <input type="radio" value="0" name="p4" onclick="respuesta(4,this)"> Porque los fabricantes solo quieren ganar dinero.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Porque las actualizaciones de software pueden corregir vulnerabilidades de seguridad.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Porque las actualizaciones ralentizan los dispositivos.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Porque no importa si el software está actualizado.
+                </label>
+            </div>
+        </section>
+        <section id="p5">
+            <div class="question">
+                <h3>6. ¿Cuál es una señal de que un sitio web puede no ser seguro para ingresar información confidencial?</h3>
+                <label>
+                    <input type="radio" value="0" name="p5" onclick="respuesta(5,this)"> El sitio web tiene un candado verde en la barra de direcciones del navegador.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> El sitio web utiliza el protocolo HTTPS.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> El sitio web solicita información personal a través de un formulario no cifrado.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p5" onclick="respuesta(5,this)"> El sitio web tiene un aspecto profesional.
+                </label>
+            </div>
+        </section>
+        <section id="p6">
+            <div class="question">
+                <h3>7. ¿Cuál es la mejor práctica para proteger los dispositivos móviles en entornos corporativos?</h3>
+                <label>
+                    <input type="radio" value="0" name="p6" onclick="respuesta(6,this)"> Desactivar las actualizaciones automáticas.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> No utilizar contraseñas para desbloquear los dispositivos.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> Utilizar software de seguridad móvil y mantener actualizado el sistema operativo.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p6" onclick="respuesta(6,this)"> Compartir dispositivos móviles con colegas.
+                </label>
+            </div>
+        </section>
+        <section id="p7">
+            <div class="question">
+                <h3>8. ¿Qué se debe hacer con los dispositivos de almacenamiento USB encontrados en la calle o en la oficina?</h3>
+                <label>
+                    <input type="radio" value="0" name="p7" onclick="respuesta(7,this)"> Conectarlos a la computadora y revisar su contenido.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> Ignorarlos y dejarlos donde se encontraron.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> Entregarlos al departamento de TI para su análisis.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p7" onclick="respuesta(7,this)"> Formatearlos y utilizarlos para almacenar archivos personales.
+                </label>
+            </div>
+        </section>
+        <section id="p8">
+            <div class="question">
+                <h3>9. ¿Por qué es importante proteger la información confidencial de la empresa?</h3>
+                <label>
+                    <input type="radio" value="0" name="p8" onclick="respuesta(8,this)"> Porque la información confidencial es irrelevante.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> Porque su divulgación puede causar daño a la empresa y a sus clientes.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> Porque todos tienen derecho a acceder a la información confidencial.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p8" onclick="respuesta(8,this)"> Porque la información confidencial no existe.
+                </label>
+            </div>
+        </section>
+        <section id="p9">
+            <div class="question">
+                <h3>10. ¿Cuál es la mejor manera de proteger la información confidencial cuando se trabaja fuera de la oficina?</h3>
+                <label>
+                    <input type="radio" value="0" name="p9" onclick="respuesta(9,this)"> Compartirla libremente con amigos y familiares.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> No llevar información confidencial fuera de la oficina.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> Utilizar una conexión VPN segura y cifrar los dispositivos.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p9" onclick="respuesta(9,this)"> Dejar los dispositivos desbloqueados en lugares públicos.
+                </label>
+            </div>
+        </section>
+        <h2>
+            <button onclick="revelar()">Calificar</button>
+            <span id="resultado"></span>
+        </h2>
+        <h2>
+            <span id="rango"></span>
+        </h2>
+    </div>
+
+    <script src="/js/test.js"></script>
+</body>
+</html>

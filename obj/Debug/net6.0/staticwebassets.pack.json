@@ -413,12 +413,32 @@
       "PackagePath": "staticwebassets\\img\\IA\\LogoBlanco.png"
     },
     {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\LogoCeleste.png",
+      "PackagePath": "staticwebassets\\img\\IA\\LogoCeleste.png"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\LogoContacto.png",
+      "PackagePath": "staticwebassets\\img\\IA\\LogoContacto.png"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\LogoContactoBlanco.png",
+      "PackagePath": "staticwebassets\\img\\IA\\LogoContactoBlanco.png"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\MalosComentarios.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\MalosComentarios.jpeg"
+    },
+    {
       "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\MiedoInseguridadesJovenes.jpeg",
       "PackagePath": "staticwebassets\\img\\IA\\MiedoInseguridadesJovenes.jpeg"
     },
     {
       "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\MiedoInseguridadesNinos.jpeg",
       "PackagePath": "staticwebassets\\img\\IA\\MiedoInseguridadesNinos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Pregunta.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\Pregunta.jpeg"
     },
     {
       "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\ResponsabilidadNinos.jpeg",
@@ -535,6 +555,18 @@
     {
       "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta9.jpeg",
       "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\Otros\\1.webp",
+      "PackagePath": "staticwebassets\\img\\Otros\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\Otros\\2.webp",
+      "PackagePath": "staticwebassets\\img\\Otros\\2.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\Otros\\3.webp",
+      "PackagePath": "staticwebassets\\img\\Otros\\3.webp"
     },
     {
       "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta1.webp",

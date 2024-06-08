@@ -1,0 +1,209 @@
+﻿@{
+    ViewData["Title"] = "Test de Gestión de Riesgos y Respuesta a Incidentes Informáticos";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/css/test.css" rel="stylesheet" />
+    <title>Test de Gestión de Riesgos y Respuesta a Incidentes Informáticos</title>
+</head>
+<body data-cuestionario-id="GestionRiesgos">
+
+    <header>
+        <h1>Test de Gestión de Riesgos y Respuesta a Incidentes Informáticos</h1>
+        <p>Por favor, selecciona la opción correcta para cada una de las siguientes preguntas:</p>
+    </header>
+    <div class="back-button-container">
+        <a asp-area="" asp-controller="Home" asp-action="Otros" class="btnBack">
+            <img src="~/img/login/back.png" alt="Regresar" />
+        </a>
+    </div>
+    <div class="container">
+        <section id="p0">
+            <div class="question">
+                <h3>1. ¿Qué es un riesgo informático?</h3>
+                <label>
+                    <input type="radio" value="0" name="p0" onclick="respuesta(0,this)"> Un evento inesperado.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Una situación donde existe la posibilidad de una amenaza o vulnerabilidad que pueda afectar la seguridad de los sistemas y datos informáticos.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Un problema exclusivo del departamento de TI.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Un error tipográfico.
+                </label>
+            </div>
+        </section>
+        <section id="p1">
+            <div class="question">
+                <h3>2. ¿Cuál es el propósito de realizar una evaluación de riesgos informáticos?</h3>
+                <label>
+                    <input type="radio" value="0" name="p1" onclick="respuesta(1,this)"> Para generar más trabajo para el equipo de TI.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Identificar y evaluar los posibles riesgos y amenazas a los sistemas informáticos de la organización.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Ignorar los riesgos y esperar lo mejor.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Para cumplir con los requisitos legales sin ningún beneficio adicional.
+                </label>
+            </div>
+        </section>
+        <section id="p2">
+            <div class="question">
+                <h3>3. ¿Qué es un incidente informático?</h3>
+                <label>
+                    <input type="radio" value="0" name="p2" onclick="respuesta(2,this)"> Una situación cómica relacionada con computadoras.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Una interrupción no planificada en los servicios informáticos que puede causar daño o pérdida de datos.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Un evento social organizado por el departamento de TI.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Un problema menor que no requiere atención.
+                </label>
+            </div>
+        </section>
+        <section id="p3">
+            <div class="question">
+                <h3>4. ¿Cuál es el primer paso en la respuesta a incidentes informáticos?</h3>
+                <label>
+                    <input type="radio" value="0" name="p3" onclick="respuesta(3,this)"> Ignorar el incidente y esperar a ver si desaparece.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Notificar a todas las partes interesadas.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Investigar la causa raíz del incidente.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Contener y mitigar el impacto del incidente.
+                </label>
+            </div>
+        </section>
+        <section id="p4">
+            <div class="question">
+                <h3>5. ¿Qué debe incluir un plan de respuesta a incidentes informáticos?</h3>
+                <label>
+                    <input type="radio" value="0" name="p4" onclick="respuesta(4,this)"> Nada, ya que no es necesario tener un plan.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Procedimientos detallados para detectar, contener, investigar y recuperarse de incidentes informáticos.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Solo una lista de contactos de emergencia.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> No hay necesidad de tener un plan de respuesta a incidentes.
+                </label>
+            </div>
+        </section>
+        <section id="p5">
+            <div class="question">
+                <h3>6. ¿Qué es un ataque de denegación de servicio (DDoS)?</h3>
+                <label>
+                    <input type="radio" value="0" name="p5" onclick="respuesta(5,this)"> Un ataque físico a la infraestructura de TI de una organización.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> Un ataque que busca robar datos confidenciales.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> Un ataque que sobrecarga un sistema o red con tráfico falso, haciendo que sea inaccesible para los usuarios legítimos.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p5" onclick="respuesta(5,this)"> Un tipo de ataque que altera el contenido de los datos.
+                </label>
+            </div>
+        </section>
+        <section id="p6">
+            <div class="question">
+                <h3>7. ¿Cuál es el objetivo principal de la fase de recuperación en la respuesta a incidentes informáticos?</h3>
+                <label>
+                    <input type="radio" value="0" name="p6" onclick="respuesta(6,this)"> Volver al estado anterior al incidente lo más rápido posible.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> Ignorar el incidente y esperar que desaparezca.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> No hacer nada y esperar a que se resuelva solo.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p6" onclick="respuesta(6,this)"> No hay necesidad de recuperarse después de un incidente.
+                </label>
+            </div>
+        </section>
+        <section id="p7">
+            <div class="question">
+                <h3>8. ¿Qué es un ransomware?</h3>
+                <label>
+                    <input type="radio" value="0" name="p7" onclick="respuesta(7,this)"> Un tipo de virus que roba datos.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> Un tipo de malware que cifra los archivos de la víctima y exige un rescate para su liberación.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> Una herramienta de seguridad informática.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p7" onclick="respuesta(7,this)"> Un programa que protege contra ataques informáticos.
+                </label>
+            </div>
+        </section>
+        <section id="p8">
+            <div class="question">
+                <h3>9. ¿Por qué es importante realizar una investigación posterior al incidente informático?</h3>
+                <label>
+                    <input type="radio" value="0" name="p8" onclick="respuesta(8,this)"> Para culpar a alguien por el incidente.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> Para identificar las causas subyacentes del incidente y tomar medidas correctivas para evitar futuros incidentes.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> No hay necesidad de investigar después de un incidente.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p8" onclick="respuesta(8,this)"> Para justificar la inacción.
+                </label>
+            </div>
+        </section>
+        <section id="p9">
+            <div class="question">
+                <h3>10. ¿Cuál es la mejor manera de mejorar la preparación para incidentes informáticos?</h3>
+                <label>
+                    <input type="radio" value="0" name="p9" onclick="respuesta(9,this)"> Ignorar los incidentes y esperar lo mejor.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> Realizar ejercicios regulares de simulación y entrenamiento para el equipo de respuesta a incidentes.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> No hacer nada y esperar a que los incidentes ocurran.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p9" onclick="respuesta(9,this)"> No hay necesidad de prepararse para incidentes informáticos.
+                </label>
+            </div>
+        </section>
+        <h2>
+            <button onclick="revelar()">Calificar</button>
+            <span id="resultado"></span>
+        </h2>
+        <h2>
+            <span id="rango"></span>
+        </h2>
+    </div>
+
+    <script src="/js/test.js"></script>
+</body>
+</html>

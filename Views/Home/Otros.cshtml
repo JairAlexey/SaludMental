@@ -30,7 +30,7 @@
     <nav>
         <div class="navbar">
             <i class='bx bx-menu'></i>
-            <div class="logo"><a href="#">SaludMental</a></div>
+            <div class="logo"><a asp-controller="Home" asp-action="PaginaInicio">SaludMental</a></div>
             <div class="nav-links">
                 <div class="sidebar-logo">
                     <span class="logo-name">SaludMental</span>
@@ -47,7 +47,7 @@
                             <li><a asp-area="" asp-controller="Home" asp-action="Despues">Despues</a></li>
                             <li class="more">
                                 <span>
-                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test</a>
+                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test Emocional</a>
                                     <i class='bx bxs-chevron-right arrow more-arrow'></i>
                                 </span>
                                 <ul class="more-sub-menu sub-menu">
@@ -65,6 +65,7 @@
                         <a asp-area="" asp-controller="" asp-action="">TE AYUDAMOS</a>
                         <i class='bx bxs-chevron-down js-arrow arrow'></i>
                         <ul class="js-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Chatbot">Chatbot</a></li>
                             <li><a asp-area="" asp-controller="Home" asp-action="Ayuda">Preguntas frecuentes</a></li>
                             <li><a asp-area="" asp-controller="Home" asp-action="Formulario">Cuéntanos lo que <br>te está sucediendo</a></li>
                         </ul>
@@ -92,66 +93,52 @@
     </nav>
 
     <div class="contenedor">
+        <br></br>
         <main class="blog">
-            <h3>Esta es la pagina de los TEST</h3>
 
             <article class="entrada">
                 <div class="entrada__imagen">
                     <picture>
-                        <img loading="lazy" src="https://th.bing.com/th/id/R.073a6d506a3372ccf8c3f68f1ed2f8d0?rik=dBOCabMfw5VW4w&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f4108468%2fimages%2fo-TEST-facebook.jpg&ehk=itAF5kp0oC3cFGJlwHjcX3B4VHpsq0DX99e%2bLSuUksg%3d&risl=&pid=ImgRaw&r=0" alt="imagen blog" />
+                        <img loading="lazy" src="~/img/Otros/1.webp" alt="imagen blog" />
                     </picture>
                 </div>
 
                 <div class="entrada__contenido">
-                    <h4 class="no-margin">Test sobre el acoso</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit consequatur perferendis officia, vitae fuga animi temporibus itaque atque reiciendis ea excepturi! Molestias aperiam fugiat deleniti laudantium atque numquam?</p>
-                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="Test1">Hacer test</a>
+                    <h4 class="no-margin">Protección de Datos y Privacidad para Empleados</h4>
+                    <p>Se refiere a las políticas y prácticas que una empresa implementa para asegurar que los datos personales de sus empleados se manejen de manera segura y confidencial. Incluye medidas para proteger la información contra accesos no autorizados, uso indebido o pérdidas. La privacidad de los empleados se relaciona con la gestión adecuada de datos personales, asegurando que solo se recolecte, use y comparta la información necesaria y de manera transparente.</p>
+                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="ProteccionDeDatos">Hacer test</a>
                 </div>
             </article>
 
             <article class="entrada">
                 <div class="entrada__imagen">
                     <picture>
-                        <img loading="lazy" src="https://th.bing.com/th/id/R.073a6d506a3372ccf8c3f68f1ed2f8d0?rik=dBOCabMfw5VW4w&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f4108468%2fimages%2fo-TEST-facebook.jpg&ehk=itAF5kp0oC3cFGJlwHjcX3B4VHpsq0DX99e%2bLSuUksg%3d&risl=&pid=ImgRaw&r=0" alt="imagen blog" />
+                        <img loading="lazy" src="~/img/Otros/2.webp" alt="imagen blog" />
                     </picture>
                 </div>
 
                 <div class="entrada__contenido">
-                    <h4 class="no-margin">Test sobre el acoso laboral</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit consequatur perferendis officia, vitae fuga animi temporibus itaque atque reiciendis ea excepturi! Molestias aperiam fugiat deleniti laudantium atque numquam?</p>
-                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="Test1">Hacer test</a>
+                    <h4 class="no-margin">Concienciación y Formación en Seguridad de la Información para Empleados</h4>
+                    <p>Este concepto implica educar y capacitar a los empleados sobre la importancia de la seguridad de la información y las mejores prácticas para proteger los datos corporativos y personales. La formación puede incluir el reconocimiento de amenazas cibernéticas como phishing, malware, y otros ataques, además de instrucciones sobre cómo manejar información sensible y qué hacer en caso de una violación de seguridad.</p>
+                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="ConcienciacionYFormacion">Hacer test</a>
                 </div>
             </article>
 
             <article class="entrada">
                 <div class="entrada__imagen">
                     <picture>
-                        <img loading="lazy" src="https://th.bing.com/th/id/R.073a6d506a3372ccf8c3f68f1ed2f8d0?rik=dBOCabMfw5VW4w&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f4108468%2fimages%2fo-TEST-facebook.jpg&ehk=itAF5kp0oC3cFGJlwHjcX3B4VHpsq0DX99e%2bLSuUksg%3d&risl=&pid=ImgRaw&r=0" alt="imagen blog" />
+                        <img loading="lazy" src="~/img/Otros/1.webp" alt="imagen blog" />
                     </picture>
                 </div>
 
                 <div class="entrada__contenido">
-                    <h4 class="no-margin">Test de trastornos</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit consequatur perferendis officia, vitae fuga animi temporibus itaque atque reiciendis ea excepturi! Molestias aperiam fugiat deleniti laudantium atque numquam?</p>
-                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="Test1">Hacer test</a>
+                    <h4 class="no-margin">Gestión de Riesgos y Respuesta a Incidentes Informáticos</h4>
+                    <p>Refiere a la estrategia y los procedimientos que una organización establece para identificar, evaluar y mitigar los riesgos asociados a la seguridad de la información. También incluye el plan y las acciones necesarias para responder eficazmente ante incidentes de seguridad, como ataques cibernéticos o brechas de datos. Este concepto es crucial para minimizar el impacto negativo de los incidentes y restaurar rápidamente las operaciones normales.</p>
+                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="GestionDeRiesgos">Hacer test</a>
 
                 </div>
             </article>
 
-            <article class="entrada">
-                <div class="entrada__imagen">
-                    <picture>
-                        <img loading="lazy" src="https://th.bing.com/th/id/R.073a6d506a3372ccf8c3f68f1ed2f8d0?rik=dBOCabMfw5VW4w&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f4108468%2fimages%2fo-TEST-facebook.jpg&ehk=itAF5kp0oC3cFGJlwHjcX3B4VHpsq0DX99e%2bLSuUksg%3d&risl=&pid=ImgRaw&r=0" alt="imagen blog" />
-                    </picture>
-                </div>
-
-                <div class="entrada__contenido">
-                    <h4 class="no-margin">Test de tipos de trastornos</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit consequatur perferendis officia, vitae fuga animi temporibus itaque atque reiciendis ea excepturi! Molestias aperiam fugiat deleniti laudantium atque numquam?</p>
-                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="Test1">Hacer test</a>
-
-                </div>
-            </article>
         </main>
 
     </div>

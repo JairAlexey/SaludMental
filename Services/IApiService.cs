@@ -10,7 +10,6 @@ namespace WebApplicationSaludMental.Services
         Task<bool> updateUsuario(int IdUsuario, Usuarios usuarios);
         Task<bool> deleteUsuario(int IdUsuario);
         Task<bool> IniciarSesion(Usuarios inicioSesion);
-        Task<bool> DeterminarRol(Usuarios inicioSesion);
 
         Task<List<Capacitaciones>> getCapacitaciones();
         Task<Capacitaciones> getCapacitaciones(int IdCapacitaciones);

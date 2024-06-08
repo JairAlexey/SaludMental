@@ -31,7 +31,7 @@
     <nav>
         <div class="navbar">
             <i class='bx bx-menu'></i>
-            <div class="logo"><a href="#">SaludMental</a></div>
+            <div class="logo"><a asp-controller="Home" asp-action="PaginaInicio">SaludMental</a></div>
             <div class="nav-links">
                 <div class="sidebar-logo">
                     <span class="logo-name">SaludMental</span>
@@ -48,7 +48,7 @@
                             <li><a asp-area="" asp-controller="Home" asp-action="Despues">Despues</a></li>
                             <li class="more">
                                 <span>
-                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test</a>
+                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test Emocional</a>
                                     <i class='bx bxs-chevron-right arrow more-arrow'></i>
                                 </span>
                                 <ul class="more-sub-menu sub-menu">
@@ -66,6 +66,7 @@
                         <a asp-area="" asp-controller="" asp-action="">TE AYUDAMOS</a>
                         <i class='bx bxs-chevron-down js-arrow arrow'></i>
                         <ul class="js-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Chatbot">Chatbot</a></li>
                             <li><a asp-area="" asp-controller="Home" asp-action="Ayuda">Preguntas frecuentes</a></li>
                             <li><a asp-area="" asp-controller="Home" asp-action="Formulario">Cuéntanos lo que <br>te está sucediendo</a></li>
                         </ul>
@@ -96,7 +97,7 @@
         <article>
             <br />
             <h2>PREGUNTAS FRECUENTAS</h2>
-            <img src="~/img/acoso/acoso-a.jpg" />
+            <img src="~/img/IA/Pregunta.jpeg" />
             <p>
                 La era digital en la que vivimos ha abierto un mundo de posibilidades y conocimiento al alcance de todos, especialmente de los más jóvenes. Sin embargo, esta gran herramienta también plantea desafíos significativos, como el acoso en línea, un problema que preocupa cada vez más a padres, madres y educadores. Entender cómo navegar por Internet de manera segura es fundamental para proteger a nuestros menores de posibles riesgos.
 
@@ -108,21 +109,28 @@
 
         <article>
             <h2>¿Cómo puedo denunciar un mensaje ofensivo o bloquear un usuario en Internet?</h2>
-            <img src="~/img/acoso/mensajes.jpeg" />
-            <p>
-                <h3>Mensajes, comentarios, fotos o vídeos ofensivos</h3>
+            <img src="~/img/IA/MalosComentarios.jpeg" />
 
+             <h3>Mensajes, comentarios, fotos o vídeos ofensivos</h3>
+
+             <p>
                 Si hemos recibido un mensaje ofensivo, o alguien publica un comentario, foto o vídeo que nos resulta molesto, podemos contactar con la persona que lo ha enviado (y/o sus padres) y pedirle que lo elimine, e incluso solicitar la mediación del centro educativo para resolver el conflicto.
 
                 Si esto no es suficiente, podemos acudir a las opciones de reporte que ofrecen las redes sociales y las herramientas de mensajería instantánea para cada publicación. La mayoría de ellas facilitan que puedas eliminar y denunciar esos contenidos ofensivos. Para ello, hay que hacer clic en las opciones de la publicación, seleccionar reportar o denunciar, y marcar la opción que mejor describa el problema.
+             </p>
 
-                <h3>Personas que están molestando a un menor</h3>
+             <h3>Personas que están molestando a un menor</h3>
 
+            <p>
                 Si conocemos a la persona que le está molestando, podemos intentar hablar con ella (y/o sus padres), e incluso solicitar la mediación del centro educativo para pedirle que deje de molestarnos y borre nuestros datos de contacto (número de teléfono, correo electrónico o usuario de redes sociales).
 
                 Si esto no es así, o no se resuelve el problema, podemos acudir a las opciones de bloqueo y reporte que ofrecen las redes sociales y las herramientas de mensajería instantánea:
-                
-                <h3>Bloquear el contacto, para que no pueda ponerse en contacto con nosotros.</h3>
+
+            </p>
+
+              <h3>Bloquear el contacto, para que no pueda ponerse en contacto con nosotros.</h3>
+
+            <p>
                 Borrarle como contacto, para no ponernos en contacto con esa persona.
                 Reportar el usuario, para que los administradores de la plataforma suspendan o borren su cuenta si ha incumplido las condiciones del servicio (por ejemplo insultar o hacerse pasar por otra persona no suele estar permitido).
             </p>

@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "Test 1";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/css/test.css" rel="stylesheet" />
+    <title>Test 1</title>
+</head>
+<body data-cuestionario-id="ProteccionDatos">
+    <header>
+        <h1>Test de Protección de Datos y Privacidad para Empleados</h1>
+        <P>Por favor, responde "Sí" o "No" a cada una de las siguientes preguntas:</P>
+    </header>
+    <div class="back-button-container">
+        <a asp-area="" asp-controller="Home" asp-action="Otros" class="btnBack">
+            <img src="~/img/login/back.png" alt="Regresar" />
+        </a>
+    </div>
+    <div class="container">
+        <section id="p0">
+            <div class="question">
+                <h3>1. ¿Qué se considera información personal o datos sensibles?</h3>
+                <label><input type="radio" value="0" name="p0" onclick="respuesta(0, this)"> Nombres de mascotas</label>
+                <label><input type="radio" value="1" name="p0" onclick="respuesta(0, this)"> Números de teléfono de la empresa</label>
+                <label><input type="radio" value="2" name="p0" onclick="respuesta(0, this)"> Direcciones de correo electrónico personales</label>
+                <label><input type="radio" value="3" name="p0" onclick="respuesta(0, this)"> Todas las anteriores</label>
+            </div>
+        </section>
+        <section id="p1">
+            <div class="question">
+                <h3>2. ¿Cuál de las siguientes acciones protege mejor la privacidad de los datos?</h3>
+                <label><input type="radio" value="0" name="p1" onclick="respuesta(1, this)"> Compartir contraseñas con colegas de confianza</label>
+                <label><input type="radio" value="1" name="p1" onclick="respuesta(1, this)"> Almacenar datos confidenciales en una carpeta compartida en la nube</label>
+                <label><input type="radio" value="2" name="p1" onclick="respuesta(1, this)"> Utilizar la autenticación de dos factores para acceder a cuentas sensibles</label>
+                <label><input type="radio" value="3" name="p1" onclick="respuesta(1, this)"> No tener políticas de privacidad en la empresa</label>
+            </div>
+        </section>
+        <section id="p2">
+            <div class="question">
+                <h3>3. ¿Por qué es importante obtener el consentimiento antes de recopilar datos personales?</h3>
+                <label><input type="radio" value="0" name="p2" onclick="respuesta(2, this)"> No es necesario obtener consentimiento</label>
+                <label><input type="radio" value="1" name="p2" onclick="respuesta(2, this)"> Para cumplir con las regulaciones de privacidad de datos</label>
+                <label><input type="radio" value="2" name="p2" onclick="respuesta(2, this)"> Porque es más rápido recopilar datos sin pedir permiso</label>
+                <label><input type="radio" value="3" name="p2" onclick="respuesta(2, this)"> Porque todos los datos personales son de dominio público</label>
+            </div>
+        </section>
+        <section id="p3">
+            <div class="question">
+                <h3>4. ¿Qué es una brecha de datos y cuál es su impacto?</h3>
+                <label><input type="radio" value="0" name="p3" onclick="respuesta(3, this)"> Una interrupción del flujo de datos que no tiene consecuencias</label>
+                <label><input type="radio" value="1" name="p3" onclick="respuesta(3, this)"> Una violación de seguridad en la que datos confidenciales se exponen, se roban o se divulgan sin autorización</label>
+                <label><input type="radio" value="2" name="p3" onclick="respuesta(3, this)"> Un evento insignificante que no afecta a la empresa</label>
+                <label><input type="radio" value="3" name="p3" onclick="respuesta(3, this)"> Un aumento en la productividad de la empresa</label>
+            </div>
+        </section>
+        <section id="p4">
+            <div class="question">
+                <h3>5. ¿Qué es el RGPD y a quién se aplica principalmente?</h3>
+                <label><input type="radio" value="0" name="p4" onclick="respuesta(4, this)"> Un grupo de rock</label>
+                <label><input type="radio" value="1" name="p4" onclick="respuesta(4, this)"> Una regulación de privacidad de datos que se aplica solo a grandes empresas</label>
+                <label><input type="radio" value="2" name="p4" onclick="respuesta(4, this)"> El Reglamento General de Protección de Datos de la Unión Europea, que se aplica a todas las empresas que procesan datos de ciudadanos de la UE</label>
+                <label><input type="radio" value="3" name="p4" onclick="respuesta(4, this)"> Un organismo de seguridad informática</label>
+            </div>
+        </section>
+        <section id="p5">
+            <div class="question">
+                <h3>6. ¿Cuál de las siguientes acciones NO protege la privacidad de los datos?</h3>
+                <label><input type="radio" value="0" name="p5" onclick="respuesta(5, this)"> Compartir contraseñas por correo electrónico</label>
+                <label><input type="radio" value="1" name="p5" onclick="respuesta(5, this)"> Utilizar una red Wi-Fi pública para acceder a información confidencial</label>
+                <label><input type="radio" value="2" name="p5" onclick="respuesta(5, this)"> Cifrar archivos sensibles antes de enviarlos por correo electrónico</label>
+                <label><input type="radio" value="3" name="p5" onclick="respuesta(5, this)"> Almacenar contraseñas en un archivo de texto sin cifrar</label>
+            </div>
+        </section>
+        <section id="p6">
+            <div class="question">
+                <h3>7. ¿Qué es el cifrado de datos y cómo contribuye a la protección de la privacidad?</h3>
+                <label><input type="radio" value="0" name="p6" onclick="respuesta(6, this)"> El cifrado de datos es una técnica para eliminar datos no deseados</label>
+                <label><input type="radio" value="1" name="p6" onclick="respuesta(6, this)"> El cifrado de datos es una técnica para ocultar datos sensibles</label>
+                <label><input type="radio" value="2" name="p6" onclick="respuesta(6, this)"> El cifrado de datos es una técnica para transformar datos en un formato ilegible que solo puede ser descifrado por personas autorizadas, lo que ayuda a proteger la privacidad de los datos</label>
+                <label><input type="radio" value="3" name="p6" onclick="respuesta(6, this)"> El cifrado de datos es una técnica para compartir datos públicamente</label>
+            </div>
+        </section>
+        <section id="p7">
+            <div class="question">
+                <h3>8. ¿Por qué es importante tener políticas de retención de datos?</h3>
+                <label><input type="radio" value="0" name="p7" onclick="respuesta(7, this)"> Para retener datos indefinidamente</label>
+                <label><input type="radio" value="1" name="p7" onclick="respuesta(7, this)"> Para cumplir con las regulaciones de privacidad y evitar la acumulación innecesaria de datos</label>
+                <label><input type="radio" value="2" name="p7" onclick="respuesta(7, this)"> Porque las políticas de retención de datos no son importantes</label>
+                <label><input type="radio" value="3" name="p7" onclick="respuesta(7, this)"> Para aumentar el almacenamiento de datos</label>
+            </div>
+        </section>
+        <section id="p8">
+            <div class="question">
+                <h3>9. ¿Qué es una política de privacidad y por qué es importante para una empresa?</h3>
+                <label><input type="radio" value="0" name="p8" onclick="respuesta(8, this)"> Una política que promueve la divulgación pública de datos</label>
+                <label><input type="radio" value="1" name="p8" onclick="respuesta(8, this)"> Una política que restringe el acceso a los datos internos de la empresa</label>
+                <label><input type="radio" value="2" name="p8" onclick="respuesta(8, this)"> Una política que establece cómo la empresa recopila, utiliza, protege y divulga la información de los usuarios, lo que ayuda a generar confianza con los clientes y demuestra un compromiso con la privacidad de los datos</label>
+                <label><input type="radio" value="3" name="p8" onclick="respuesta(8, this)"> Una política que no tiene ningún efecto en la empresa</label>
+            </div>
+        </section>
+        <section id="p9">
+            <div class="question">
+                <h3>10. ¿Cuál de las siguientes medidas NO contribuye a proteger la privacidad de los datos en línea?</h3>
+                <label><input type="radio" value="0" name="p9" onclick="respuesta(9, this)"> Utilizar una conexión segura HTTPS al navegar por sitios web</label>
+                <label><input type="radio" value="1" name="p9" onclick="respuesta(9, this)"> Configurar contraseñas fuertes y únicas para cuentas en línea</label>
+                <label><input type="radio" value="2" name="p9" onclick="respuesta(9, this)"> Compartir contraseñas con colegas de confianza</label>
+                <label><input type="radio" value="3" name="p9" onclick="respuesta(9, this)"> Actualizar regularmente el software y los sistemas operativos para corregir vulnerabilidades de seguridad</label>
+            </div>
+        </section>
+        <h2>
+            <button onclick="revelar()">Calificar</button>
+            <span id="resultado"></span>
+        </h2>
+        <h2>
+            <span id="rango"></span>
+        </h2>
+    </div>
+
+    <script src="/js/test.js"></script>
+</body>
+</html>

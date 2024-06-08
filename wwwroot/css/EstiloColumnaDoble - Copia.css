@@ -181,7 +181,6 @@ p {
 
 /*Titulo centrado en la tarjeta*/
 .titulo__tarjeta{
-    margin-left: 40px;
     text-align: center;
 }
 
@@ -196,6 +195,7 @@ p {
     margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
 }
 
 .entrada__contenido {
@@ -226,11 +226,13 @@ p {
         padding-right: 20rem;
     }
 
-.entrada__contenido p {
+.entrada__contenido p span {
     margin-top: 0;
-    text-align: center;
+    text-align: left;
     margin: 20px;
 }
+
+
 
 .descripcion {
     display: flex;
@@ -766,12 +768,12 @@ p {
 /* Botones y enlaces más grandes para pantallas táctiles */
 @media (max-width: 768px) {
     .boton {
-        margin-left: 80px;
+        margin-left: 10px;
         font-size: 2rem; /* Fuente más grande */
     }
 }
 
-@media (max-width: 1900px) { /* 768px suele ser el tamaño de breakpoint para tablets */
+@media (max-width: 800px  ) { /* 768px suele ser el tamaño de breakpoint para tablets */
     .entrada {
         flex-direction: column; /* apila texto e imagen verticalmente */
     }
