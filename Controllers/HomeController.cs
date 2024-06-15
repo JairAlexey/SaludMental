@@ -204,6 +204,10 @@ namespace WebApplicationSaludMental.Controllers
             return View();
         }
 
+        public ActionResult LeyProteccionDeDatos()
+        {
+            return View();
+        }
 
         public async Task<IActionResult> PaginaInicio()
         {
