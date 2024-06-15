@@ -1,4 +1,6 @@
-﻿@model List<Reservacion>;
+﻿@model WebApplicationSaludMental.Models.Reservacion;
+
+
 
 @{
     var idCapacitacion = Context.Request.Query["id"];
@@ -98,7 +100,14 @@
 
         <div class="contacto-bg">
             <img src="https://mantpress.com/wp-content/uploads/31-03-21-X-preguntas-frecuentes-sobre-WordPress-para-principiantes.png" />
-
+            <!-- Message Container -->
+            @if (!string.IsNullOrEmpty(ViewBag.Message))
+            {
+                <div class="alert @(ViewBag.MessageType == "success" ? "alert-success" : "alert-error")">
+                    @ViewBag.Message
+                </div>
+                <br />
+            }
         </div>
         <form class="formulario" method="POST">
 
@@ -138,9 +147,6 @@
                 <div class="contact-info">
                     <p class="title-footer">Información de Contacto</p>
                     <ul>
-                        <li>
-                            Dirección: Dirección de la empresa
-                        </li>
                         <li>Teléfono: 0980006242</li>
                         <li>
                             Email: segutsmsd@gmail.com
@@ -186,7 +192,13 @@
 
             <div class="copyright">
                 <p>
-                    Desarrollado por Jair Rueda &copy; 2024
+                    &copy Todos los derechos reservados 2024
+                </p>
+                <br />
+                <br />
+                <br />
+                <p>
+                    Hecho por Jair Rueda
                 </p>
             </div>
         </div>

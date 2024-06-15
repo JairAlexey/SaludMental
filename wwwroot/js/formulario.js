@@ -4,26 +4,21 @@
     var camposFormulario = form.querySelectorAll("input, select");
 
     switchBtn.addEventListener("change", function () {
-        if (switchBtn.checked) {
-            // Si el interruptor está activado, deshabilitar todos los campos excepto el campo de mensaje
-            camposFormulario.forEach(function (element) {
-                if (element.name !== "Mensaje") {
-                    if (element.tagName === "INPUT" && element.type === "date") {
-                        // Establecer fecha en la fecha actual
+        camposFormulario.forEach(function (element) {
+            if (element.name !== "Mensaje") {
+                if (switchBtn.checked) {
+                    if (element.type === "date") {
                         var today = new Date().toISOString().slice(0, 10);
-                        element.value = today;
+                        element.value = today; // Establecer la fecha actual
                     } else {
-                        element.value = "Anonimo";
+                        element.value = "Anónimo"; // Llenar con 'Anonimo'
                     }
-                    element.disabled = true;
+                    element.readOnly = true; // Hacer el campo solo lectura
+                } else {
+                    element.value = ""; // Vaciar el campo
+                    element.readOnly = false; // Permitir edición nuevamente
                 }
-            });
-        } else {
-            // Si el interruptor está desactivado, habilitar todos los campos y limpiar los valores
-            camposFormulario.forEach(function (element) {
-                element.disabled = false;
-                element.value = "";
-            });
-        }
+            }
+        });
     });
 });

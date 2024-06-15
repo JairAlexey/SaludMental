@@ -391,6 +391,18 @@ Navegacion 2 incorporada en la pagina
         height: 20rem;
     }
 
+
+@media (max-width: 768px) {
+    .campo__field--textarea {
+        flex: 0 0 75%;
+        border: 1px solid var(--gris);
+    }
+    .campo__label {
+        flex: 0 0 7rem;
+        text-align: right;
+        padding-right: 1rem;
+    }
+}
     /*ventana modal*/
 
     .modal {
@@ -758,3 +770,6 @@ Navegacion 2 incorporada en la pagina
             transform: scale(1.1);
             border-color: rgba(0,0,0,0.1);
         }
+
+
+

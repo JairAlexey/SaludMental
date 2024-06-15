@@ -93,14 +93,23 @@
 
     <br></br>
     <main class="contenedor">
-
         <h3 class="centrar-texto">Contáctanos</h3>
 
         <div class="contacto-bg">
             <img src="~/img/IA/LogoContacto.png" />
+            <!-- Message Container -->
+            @if (!string.IsNullOrEmpty(ViewBag.Message))
+            {
+                <div class="alert @(ViewBag.MessageType == "success" ? "alert-success" : "alert-error")">
+                    @ViewBag.Message
+                </div>
+                <br />
+            }
         </div>
 
+
         <form class="formulario" method="POST">
+
             <div class="campo">
                 <label class="campo__label" for="nombre">Nombre</label>
                 <input class="campo__field" type="text" placeholder="Tu Nombre" name="Nombre">
@@ -122,7 +131,6 @@
                 <input type="submit" value="Enviar" class="boton boton--primario">
             </div>
         </form>
-
     </main>
 
 
@@ -132,9 +140,6 @@
                 <div class="contact-info">
                     <p class="title-footer">Información de Contacto</p>
                     <ul>
-                        <li>
-                            Dirección: Dirección de la empresa
-                        </li>
                         <li>Teléfono: 0980006242</li>
                         <li>
                             Email: segutsmsd@gmail.com
@@ -180,7 +185,13 @@
 
             <div class="copyright">
                 <p>
-                    Desarrollado por Jair Rueda &copy; 2024
+                    &copy Todos los derechos reservados 2024
+                </p>
+                <br />
+                <br />
+                <br />
+                <p>
+                    Hecho por Jair Rueda
                 </p>
             </div>
         </div>

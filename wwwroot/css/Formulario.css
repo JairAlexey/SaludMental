@@ -37,7 +37,7 @@ ul {
     }
 
         .contact-form form label {
-            font-size: 1.5rem;
+            font-size: 18px;
             color: #fff;
             margin: 0 1rem;
         }
@@ -53,26 +53,29 @@ ul {
 
         }
         .contact-form form select {
-            width: 70%;
+            font-size: 18px;
+            padding: 0.8em 0.4em; /* Ajustado para mejorar el centrado vertical */
             text-align: center;
-            margin-left: 45px;
             background-color: #2c2c2c;
-            font-weight: bold;
             color: #fff;
+            height: 3em; /* Altura estándar para mejorar el centrado */
+            border: 1px solid #1b9604; /* Asegurarse que el borde esté visible */
+            box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
         }
+
         .contact-form form textarea {
             margin-top: 10px;
             width: 100%;
-            padding: 0;
             outline: 0;
             color: #fff;
             height: 250px;
-            background-color: #2c2c2c;
+            background-color: #2c2c2c; /* Fondo oscuro */
             border-radius: 10px;
             border: 1px solid #1b9604;
             font-size: 2rem;
-            padding: 2rem; /* Agregamos padding */
+            padding: 20px; /* Agregamos padding */
         }
+
 
 
         .contact-form form input {
@@ -166,11 +169,12 @@ ul {
     }
 
 .select {
-    position: relative;
+    height: 3em; /* Asegura que la envoltura tenga la misma altura que el select */
+    line-height: 3; /* Establece un line-height que ayude al centrado vertical */
     display: flex;
+    align-items: center; /* Alinea los elementos internos al centro */
+    position: relative;
     width: 100%;
-    height: 3em;
-    line-height: 3;
     background: #5c6664;
     overflow: hidden;
     border-radius: .25em;
@@ -193,7 +197,7 @@ ul {
     }
 
 
-.lbl-switch {
+.big-checkbox {
     display: inline-block;
     width: 55px;
     height: 30px;
@@ -203,11 +207,11 @@ ul {
     cursor: pointer;
 }
 
-#btn-switch:checked ~ .lbl-switch {
+#btn-switch:checked ~ .big-checkbox {
     background: #1b9604;
 }
 
-.lbl-switch::after {
+.big-checkbox::after {
     position: absolute;
     content: '';
     width: 22px;
@@ -219,7 +223,7 @@ ul {
     transition: 0.3s;
 }
 
-#btn-switch:checked ~ .lbl-switch::after {
+#btn-switch:checked ~ .big-checkbox::after {
     left: 28px;
 }
 

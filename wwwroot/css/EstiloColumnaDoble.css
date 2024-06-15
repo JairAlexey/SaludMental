@@ -53,7 +53,7 @@ h3 {
 }
 
 h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 img {
@@ -254,24 +254,34 @@ img {
 }
 
 .entrada {
-    padding-top: 0;
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Asegura que el contenido interno esté centrado horizontalmente */
+    align-items: center;
+    border-radius: 20px;
+    border-block-color: #000000;
+    padding-top: 0; /* Elimina padding superior */
+    min-height: 450px; /* Ajusta esto según la altura deseada */
+    justify-content: flex-start; /* Alinea el contenido al inicio del contenedor */
 }
 
 .entrada__contenido {
-    padding-top: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Distribuye el espacio uniformemente */
     align-items: center;
     text-align: center;
-    min-height: 200px; /* Asegura que haya suficiente altura para distribuir el contenido */
+    padding-top: 1rem; /* Ajusta el padding superior para el texto */
     width: 100%;
+    margin-top: 0;
 }
+
+.entrada__imagen img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho */
+    margin-top: 0;
+    margin-bottom: 0; /* Elimina el margen inferior */
+}
+
 
 .entrada__contenido h4{
     margin-top: 0;
@@ -284,12 +294,7 @@ img {
     margin: 20px;
 }
 
-.entrada__imagen img {
-    margin-top: 0;
-    margin-bottom: 0; /* Elimina el margen inferior de las imágenes */
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
+
 
 
 .boton {
@@ -949,4 +954,5 @@ p {
         max-width: 33.33%;
     }
 }
+
 

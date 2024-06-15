@@ -238,7 +238,13 @@ namespace WebApplicationSaludMental.Controllers
             var result = await _apiService.addReservacion(reservaciones);
             if (result)
             {
-                return RedirectToAction("PaginaInicio", "Home");
+                ViewBag.Message = "Se envió con éxito.";
+                ViewBag.MessageType = "success";
+            }
+            else
+            {
+                ViewBag.Message = "Error, no se pudo enviar los datos.";
+                ViewBag.MessageType = "error";
             }
             return View(reservaciones);
         }
@@ -257,10 +263,17 @@ namespace WebApplicationSaludMental.Controllers
             var result = await _apiService.addMensaje(mensajes);
             if (result)
             {
-                return RedirectToAction("PaginaInicio", "Home");
+                ViewBag.Message = "Se envió con éxito.";
+                ViewBag.MessageType = "success";
+            }
+            else
+            {
+                ViewBag.Message = "Error, no se pudo enviar los datos.";
+                ViewBag.MessageType = "error";
             }
             return View(mensajes);
         }
+
 
         // GET: Create
         public IActionResult Formulario()
@@ -276,9 +289,16 @@ namespace WebApplicationSaludMental.Controllers
             var result = await _apiService.addFormulario(formularios);
             if (result)
             {
-                return RedirectToAction("PaginaInicio", "Home");
+                ViewBag.Message = "Se envió con éxito.";
+                ViewBag.MessageType = "success";
             }
-            return View(formularios);
+            else
+            {
+                ViewBag.Message = "Error, no se pudo enviar los datos.";
+                ViewBag.MessageType = "error";
+            }
+            return View("Formulario", formularios); // Ajuste para devolver la vista correcta
+
         }
 
         // Visualizar capacitaciones 

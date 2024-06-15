@@ -790,3 +790,63 @@ p {
             object-fit: cover; /* Cubre el espacio disponible sin perder la proporción */
         }
 }
+
+/*Boton de ir arriba*/
+
+#button-up {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    left: 20px;
+    background: #46a2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 90px;
+    left: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+    #button-up:hover {
+        transform: scale(1.1);
+        border-color: rgba(0,0,0,0.1);
+    }
+
+
+/*BOTON HACIA ARRIBA*/
+#button-up {
+    background-color: #007BFF;
+    color: white;
+    border: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1000; /* Asegúrate de que el z-index sea alto para superponer otros elementos */
+    transform: scale(1); /* Asegúrate de que el botón esté visible */
+    font-size: 20px; /* Ajusta el tamaño del icono */
+}
+
+    #button-up:hover {
+        transform: scale(1.1);
+        border-color: rgba(0,0,0,0.1);
+    }
+
+    #button-up i {
+        color: white;
+        font-size: 20px;
+    }
+
+@media (min-width:100px) {
+    #button-up {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        left: 20px;
+    }
+}

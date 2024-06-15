@@ -94,16 +94,22 @@
     <main class="contenedor">
         <br></br>
         <div class="content">
+            @if (!string.IsNullOrEmpty(ViewBag.Message))
+            {
+                <div class="alert @(ViewBag.MessageType == "success" ? "alert-success" : "alert-error")">
+                    @ViewBag.Message
+                </div>
+                <br />
+            }
             <div class="contact-wrapper animated bounceInUp">
                 <div class="contact-form">
                     <form method="POST">
                         <p>
-                            <label>¿Desea que su información se envíe de forma anónima?</label>
+                            <label for="btn-switch">¿Desea que su información se envíe de forma anónima?</label>
                             <input type="checkbox" id="btn-switch">
                             <label for="btn-switch"
-                                   class="lbl-switch"></label>
+                                   class="big-checkbox"></label>
                         </p>
-
                         <p></p>
                         <p>
                             <label>Nombre</label>
@@ -111,11 +117,11 @@
                         </p>
                         <p>
                             <label>Telefono</label>
-                            <input type="number" name="Nombre">
+                            <input type="text" name="Telefono">
                         </p>
                         <p>
                             <label>Correo electronico</label>
-                            <input type="email" name="Nombre">
+                            <input type="email" name="Correo">
                         </p>
                         <p>
                             <label>Fecha de nacimiento</label>
@@ -129,7 +135,7 @@
                                 <option value="Colegio">Colegio</option>
                                 <option value="Bachillerato">Bachillerato</option>
                                 <option value="Educación Superior">Educación Superior</option>
-                                <option value="Anonimo">Anonimo</option>
+                                <option value="Anónimo">Anónimo</option>
                                 <option value="Otro">Otro</option>
                             </select>
                         </p>
@@ -145,7 +151,7 @@
                                 <option value="Testigo">Testigo</option>
                                 <option value="Agresor">Agresor</option>
                                 <option value="Apoyo">Apoyo</option>
-                                <option value="Anonimo">Anonimo</option>
+                                <option value="Anónimo">Anónimo</option>
                                 <option value="Otro">Otro</option>
                             </select>
                         </p>
@@ -155,7 +161,7 @@
                                 <option selected disabled>Seleccione</option>
                                 <option value="Hombre">Hombre</option>
                                 <option value="Mujer">Mujer</option>
-                                <option value="Anonimo">Anonimo</option>
+                                <option value="Anónimo">Anónimo</option>
                                 <option value="Otro">Otro</option>
                             </select>
                         </p>
@@ -169,7 +175,8 @@
                     </form>
                 </div>
                 <div class="contact-info">
-                    <p></p>
+                    <br />
+                    <br />
                     <h4>Tu voz importa. Tu historia es valiosa. No estás solo/a. Hablar sobre el acoso o los trastornos puede ser difícil, pero es el primer paso hacia la curación y el cambio. Al compartir tu experiencia, no solo te liberas del peso que has llevado en silencio, sino que también inspiras a otros a encontrar su propia valentía para hablar. Juntos, podemos crear un mundo donde la empatía y el apoyo sean más fuertes que el miedo y la vergüenza. No tengas miedo de alzar la voz, porque al hacerlo, te conviertes en un faro de esperanza y fortaleza para aquellos que necesitan escuchar tu historia. ¡Tú importas, tu historia importa, y juntos podemos hacer la diferencia!</h4>
                 </div>
             </div>
@@ -177,14 +184,12 @@
         </div>
 
     </main>
-
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-menu">
                 <div class="footer-contact-info">
                     <p class="footer-title">Información de Contacto</p>
                     <ul>
-                        <li>Dirección: Dirección de la empresa</li>
                         <li>Teléfono: 099999999999</li>
                         <li>Email: empresa@gmail.com</li>
                     </ul>
@@ -217,9 +222,16 @@
 
             </div>
 
+
             <div class="footer-copyright">
                 <p>
-                    Todos los derechos reservados &copy; 2024
+                    &copy Todos los derechos reservados 2024
+                </p>
+                <br />
+                <br />
+                <br />
+                <p>
+                    Hecho por Jair Rueda
                 </p>
             </div>
         </div>
